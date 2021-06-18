@@ -68,6 +68,8 @@ for x in x0:
 ```
 
 ![ex1.png](img/ex1.png)
+___Figure 1.1___: _Simulations of a direct positive feedback model for different values for x._
+
 
 The table below presents the values the graphs converges towards for the given value of x.
 
@@ -79,13 +81,15 @@ The table below presents the values the graphs converges towards for the given v
 | 100  | 989.897 |
 | 1000 | 989.898 |
 
-The plots above show, that for x = 5 and x = 10, the curves behave very differently than for higher values. This also reflects in the values the functions converge to. For values x≥50, we see it approaching a value of over 989, while the function for x≤10 approaches 0.These two values (around 0nM and 989nM) reflect the equilibrium state of our system.
+The graph in figure 1.1 shows, that for x = 5 and x = 10, the curves behave very differently compared to higher values. This also reflects in the values the functions converge to. For values x≥50, we see it approaching a value of over 989, while the function for x≤10 approaches 0.These two values (around 0nM and 989nM) reflect the equilibrium states of our system.
 
-We already now that the concentration threshold for the initial state seems to be between x=10nM and x=50nM. The graph below shows the same code above used to plot values between x=10 and x=11.
+We already now that the concentration threshold for the initial state seems to be between x=10nM and x=50nM. I tried different values, some presented in figure 1.2 below. It shows values between x=10 and x=11.
 
 ![ex1_2.png](img/ex1_2.png)
+___Figure 1.2___: _Simulations of the direct positive feedback model for different values for x between 10 and 11 showing the two equilibrium states the system goes for._
 
-The plot shows, that the threshold for our system must be between 10.1nM and 10.2nM.
+
+From the plot in figure 1.2, we can conclude graphically, that the threshold of x for our system to enter in the other equilibrium state lies between 10.1nM and 10.2nM.
 
 ---
 ## EXERCISE 2
@@ -146,10 +150,12 @@ for a in a1:
     pyplot.show()
 ```
 
-By changing the value for a1 accordingly, I obtained the following three graphs for different values of a1. We see that for the first value of a1, there is no oscillation observed. With an increase of a1, we see that the system starts to oscillated faster and faster which reflects in the number of pulses in the plots.
+By changing the value for a1 (the basal expression) accordingly, we obtain the following three graphs presented in figure 2. For the first plot showing a value of a1=0.05, we observe the excitable state, where the cell enters the competent state. We observe no oscillation. With an increase of a1 to 0.05, we see that the system starts to oscillated, the state enters the oscillatory state. When increasing the basal expression a1 further, the system oscillates even faster which reflects in the number of pulses in the plots.
 
 
 ![ex2.png](img/ex2.png)
+___Figure 2___: _Activator-Repressor Model for different values of a1._ Upper left: a1=0.005; upper-right a1=0.007; lower-left: a1=0.01.
+
 
 ---
 ## EXERCISE 3
@@ -157,6 +163,7 @@ By changing the value for a1 accordingly, I obtained the following three graphs 
 ### TASK:
 The following model describes genetic competence in _B. subtilis_:
 ![task3_1.png](img/task3_1.png)
+
 
 Simulate this model for the parameter values given in the table below:
 ![task3_2.png](img/task3_2.png)
