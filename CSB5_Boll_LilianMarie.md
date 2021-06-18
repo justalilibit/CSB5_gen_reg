@@ -2,6 +2,12 @@
 __Lilian Marie Boll__
 June, 2021
 
+- [EXERCISE 1](#exercise-1)
+    * [ANSWER](#answer)
+- [EXERCISE 2](#exercise-2)
+    * [ANSWER](#answer-1)
+- [EXERCISE 3](#exercise-3)
+    * [ANSWER](#answer-2)
 
 ## EXERCISE 1
 
@@ -231,9 +237,9 @@ print("[ComS] converges towards a value of ", round(float(dS[len_dS - 1]), 3))
 ![first_plot](img/ex3_1.png)
 ___Figure 3.1___: _Simulations for default values._
 
-`[[ComK] converges towards a value of  69.892
+    [[ComK] converges towards a value of  69.892
 
-[ComS] converges towards a value of  413.255`
+    [ComS] converges towards a value of  413.255
 
 #### 1. Changing 𝛼k (basal expression rate of ComK, here a_k)
 
